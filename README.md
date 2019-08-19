@@ -27,11 +27,24 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [Amazon S3](https://aws.amazon.com/s3/) - Cloud storage
 - [API Documentation](https://aws.amazon.com/documentation/s3/)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang AWS S3 Library using REST with V4 Signing](https://github.com/rhnvrm/simples3)
+- [Golang Library for Amazon S3 compatible cloud storage](https://github.com/minio/minio-go)
+
+### [Apache Mesos](http://mesos.apache.org/) - distributed systems kernel
+- [API Documentation](http://mesos.apache.org/documentation/latest/)
+- [Golang Client library for accessing an Apache Mesos cluster](https://github.com/andygrunwald/megos)
+
+### [Apache Storm](http://storm.apache.org/index.html) - distributed realtime computation system
+- [API Documentation](http://storm.apache.org/releases/current/Concepts.html)
+- [Golang library to communicate with Storm shells](https://github.com/jsgilmore/gostorm)
 
 ### [Asterisk Manager Interface](https://www.asterisk.org/) - FOSS framework for communication
 - [API Documentation](https://placeholder.com/) `TODO`
 - [Golang library for Asterisk Manager Interface](https://github.com/bit4bit/gami)
+
+### [Atlassian JIRA](https://www.atlassian.com/software/jira) - Agile issue tracking
+- [API Documentation](https://confluence.atlassian.com/jirasoftwarecloud/jira-software-documentation-764477791.html)
+- [Golang client library for Atlassian JIRA](https://github.com/andygrunwald/go-jira)
 
 ### [AWS](http://aws.amazon.com) - Cloud computing platform
 - [API Documentation](http://aws.amazon.com/documentation/)
@@ -142,6 +155,10 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 ### [Chargify](http://chargify.com) - Recurring billing application
 - [API Documentation](http://docs.chargify.com/api-introduction)
 - [Golang wrapper for Chargify](https://placeholder.com/) `TODO/wishlist`
+
+### [Chronos Job Scheduler](https://mesos.github.io/chronos/) - Job Scheduler
+- [API Documentation](https://mesos.github.io/chronos/docs/api.html)
+- [Golang library for interacting with the Chronos Job Scheduler](https://github.com/axelspringer/go-chronos)
 
 ### [CircleCI](https://circleci.com/) - Continuous Integration and Delivery Platform
 - [API Documentation](https://placeholder.com/) `TODO`
@@ -273,7 +290,13 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [GitHub](https://github.com/) - Online project hosting
 - [API Documentation](http://developer.github.com/)
-- [Golang wrapper for GitHub](https://placeholder.com/) `TODO/wishlist`
+- [Golang library for accessing the GitHub REST API v3](https://github.com/google/go-github)
+- [Golang library for accessing the GitHub GraphQL API v4](https://github.com/shurcooL/githubql)
+- [Golang library for accessing trending repositories and developers on Github](https://github.com/andygrunwald/go-trending)
+
+### [GitHub and Bitbucket Webhooks](https://github.com/go-playground/webhooks) - Webhook receiver for GitHub and Bitbucket.
+- [API Documentation](https://placeholder.com/) `TODO`
+- [Golang Webhook receiver for GitHub and Bitbucket](https://github.com/go-playground/webhooks)
 
 ### [GitLab](https://gitlab.com/) - Online and self-hosted Git repository management
 - [API Documentation](https://docs.gitlab.com/ce/api/)
@@ -287,17 +310,37 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [API Documentation](https://placeholder.com/) `TODO`
 - [Golang wrapper for the unofficial Google Adwords API](https://github.com/emiddleton/gads)
 
+### [Google Analytics](https://marketingplatform.google.com/about/analytics/) - Analytics
+- [API Documentation](https://developers.google.com/analytics/devguides/reporting/core/v3/reference)
+- [Golang wrapper for Google Analytics](https://github.com/chonthu/go-google-analytics)
+
 ### [Google Charts](https://developers.google.com/chart/) - Interactive charts for browsers and mobile devices
 - [API Documentation](https://developers.google.com/chart/interactive/docs/)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+
+### [Google Cloud](https://cloud.google.com/) - cloud computing services
+- [API Documentation](https://godoc.org/cloud.google.com/go)
+- [Golang client library for Google Cloud APIs](https://github.com/GoogleCloudPlatform/gcloud-golang)
 
 ### [Google Cloud Functions](https://cloud.google.com/functions/) - Serverless environment to build and connect cloud services
 - [API Documentation](https://cloud.google.com/functions/docs/apis)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
 
+### [Google Cloud Messaging](https://developers.google.com/cloud-messaging/) - mobile notification service
+- [API Documentation](https://developers.google.com/cloud-messaging/)
+- [Golang library for Google Cloud Messaging](https://github.com/Aorioli/gcm)
+
 ### [Google Drive](https://www.google.com/drive/) - File storage service
 - [API Documentation](https://developers.google.com/drive/api/v3/reference/)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+
+### [Google G Suite Email Audit](https://developers.google.com/admin-sdk/email-audit/) - G Suite Email Auditing
+- [API Documentation](https://developers.google.com/admin-sdk/email-audit/)
+- [Golang client library for Google G Suite Email Audit API](https://github.com/ngs/go-google-email-audit-api)
+
+### [Google Go APIs](https://github.com/google/google-api-go-client) - Auto-generated Google APIs for Go.
+- [API Documentation](https://godoc.org/google.golang.org/api)
+- [Auto-generated Google APIs for Go](https://github.com/google/google-api-go-client)
 
 ### [Google Maps](http://maps.google.com/) - Web mapping service
 - [API Documentation](https://developers.google.com/maps/)
@@ -329,7 +372,7 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [Hacker News](https://news.ycombinator.com/) - Social News
 - [API Documentation](https://github.com/HackerNews/API)
-- [Golang wrapper for Hacker News](https://placeholder.com/) `TODO/wishlist`
+- [Golang client for HackerNews API](https://github.com/PaulRosset/go-hacknews)
 
 ### [Hadoop YARN](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html) - Apache Hadoop NextGen MapReduce (YARN)
 - [API Documentation](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/WebServicesIntro.html)
@@ -345,7 +388,8 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [HipChat](https://www.hipchat.com/) - Hosted group chat and IM
 - [API Documentation](https://www.hipchat.com/docs/api)
-- [Golang wrapper for HipChat](https://placeholder.com/) `TODO/wishlist`
+- [Golang client library for the Hipchat API](https://github.com/andybons/hipchat)
+- [Golang package to communicate with HipChat over XMPP](https://github.com/daneharrigan/hipchat)
 
 ### [iCheckMovies](https://www.icheckmovies.com/) - Social Network for Film Lovers
 - [API Documentation](https://placeholder.com/) `TODO/wishlist`
@@ -369,7 +413,7 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [Imgur](http://www.imgur.com/) - Simple Image Sharer
 - [API Documentation](http://api.imgur.com/)
-- [Golang wrapper for Imgur](https://placeholder.com/) `TODO/wishlist`
+- [Golang client library for imgur](https://github.com/koffeinsource/go-imgur)
 
 ### [Indeed](http://www.Indeed.com) - Search engine for jobs
 - [API Documentation](http://www.indeed.com/jsp/apiinfo.jsp)
@@ -382,6 +426,10 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 ### [Intercom](https://www.intercom.com) - Marketing and Customer support
 - [API Documentation](https://developers.intercom.com/intercom-api-reference/reference)
 - [Golang wrapper for Intercom](https://placeholder.com/) `TODO/wishlist`
+
+### [Internet Game Database (igdb)](https://www.igdb.com/discover) -Internet Game Database API
+- [API Documentation](https://www.igdb.com/api)
+- [Golang client for the Internet Game Database API](https://github.com/Henry-Sarabia/igdb)
 
 ### [Investopedia](http://www.investopedia.com/simulator/) - Stock Simulator
 - [API Documentation](http://www.investopedia.com/simulator/)
@@ -417,16 +465,23 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [LinkedIn](http://linkedin.com/) - Professional Social Network
 - [API Documentation](http://developer.linkedin.com/apis)
-- [Golang wrapper #1](https://placeholder.com/) `TODO/wishlist`
-- [Golang wrapper #2](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
 
 ### [Loggly](http://loggly.com/) - Cloud-based logging
 - [API Documentation](http://loggly.com/support/advanced/extending-loggly)
 - [Golang wrapper for Loggly](https://placeholder.com/) `TODO/wishlist`
 
+### [LyricWiki](https://lyrics.fandom.com/wiki/LyricWiki) - Lyric Wiki
+- [API Documentation](https://godoc.org/github.com/mamal72/golyrics)
+- [Golang library to fetch song lyrics from LyricWiki](https://github.com/mamal72/golyrics)
+
+### [MalShare](http://www.malshare.com/) - A free Malware repository providing researchers access to samples, malicous feeds, and Yara results
+- [API Documentation](https://www.malshare.com/doc.php)
+- [Golang library MalShare API](https://github.com/MonaxGT/gomalshare)
+
 ### [Medium](https://medium.com/) - blog publishing platform
 - [API Documentation](https://placeholder.com/) `TODO/wishlist`
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang SDK for Medium's OAuth2 API](https://github.com/Medium/medium-sdk-go)
 
 ### [Meetup](http://www.meetup.com/) - Offline group meetings
 - [API Documentation](http://www.meetup.com/meetup_api/)
@@ -440,13 +495,25 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [API Documentation](https://mercury.postlight.com/web-parser/)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
 
+### [Mesosphere's Marathon PAAS](https://mesosphere.github.io/marathon/) - Container Orchestration PAAS for Mesos and DC/OS
+- [API Documentation](https://mesosphere.github.io/marathon/docs/)
+- [Golang library for interacting with Mesosphere's Marathon PAAS](https://github.com/gambol99/go-marathon)
+
 ### [Metwit](http://metwit.com/) - Social and crowdsourced weather
 - [API Documentation](http://metwit.com/weather-api/)
 - [Golang wrapper for Metwit](https://placeholder.com/) `TODO/wishlist`
 
+### [Microsoft Translator](https://github.com/poorny/translate) - Online translation
+- [API Documentation](https://placeholder.com/) `TODO`
+- [Golang wrapper for Microsoft translate](https://github.com/poorny/translate)
+
 ### [Mixcloud](https://www.mixcloud.com/) - Social music streaming
 - [API Documentation](https://www.mixcloud.com/developers/)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+
+### [Mixpanel](https://mixpanel.com/) - Business analytics
+- [API Documentation](https://developer.mixpanel.com/docs/mixpanel-apis)
+- [Golang library for tracking events and sending Mixpanel profile updates to Mixpanel](https://github.com/dukex/mixpanel)
 
 ### [MLB GameDay](http://gd2.mlb.com/components/game/mlb/) - Real-time MLB data
 - [API Documentation](http://panzarino.me/mlbgame/)
@@ -456,9 +523,17 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [API Documentation](http://docs.monkeylearn.com/article/api-reference/)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
 
+### [MusicBrainz](https://musicbrainz.org) - open music encyclopedia that collects music metadata and makes it available to the public
+- [API Documentation](https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2)
+- [Golang MusicBrainz WS2 client library](https://github.com/michiwend/gomusicbrainz)
+
 ### [Musixmatch](https://www.musixmatch.com/) - Explore the world's largest catalog of song lyrics and translations
 - [API Documentation](https://developer.musixmatch.com/)
 - [Golang wrapper for Musixmatch](https://placeholder.com/) `TODO/wishlist`
+
+### [MyAnimeList](http://myanimelist.net) - social networking and social cataloging
+- [API Documentation](http://myanimelist.net/modules.php?go=api)
+- [Golang client library for accessing the MyAnimeList API](https://github.com/nstratos/go-myanimelist)
 
 ### [NASA](http://www.nasa.gov/) - National Aeronautics and Space Administration
 - [API Documentation](https://data.nasa.gov/developer)
@@ -496,6 +571,14 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [API Documentation](http://developer.pagerduty.com/documentation/integration/events)
 - [Golang wrapper for PagerDuty](https://placeholder.com/) `TODO/wishlist`
 
+### [Patreon](https://www.patreon.com/) - Membership platform
+- [API Documentation](https://docs.patreon.com/#introduction)
+- [Golang library for the Patreon API](https://github.com/mxpv/patreon-go)
+
+### [PayPal](https://www.paypal.com) - Payment processing
+- [API Documentation](https://github.com/logpacker/PayPal-Go-SDK)
+- [Golang wrapper for the PayPal payment API](https://github.com/logpacker/PayPal-Go-SDK)
+
 ### [Peercoin](https://peercoin.net) - Open source P2P money
 - [API Documentation](https://docs.peercoin.net/#/json-rpc-api-reference)
 - [JSON-RPC API Golang wrapper](https://placeholder.com/) `TODO/wishlist`
@@ -520,6 +603,10 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [API Documentation](http://developer.photobucket.com/)
 - [Golang wrapper for Photobucket](https://placeholder.com/) `TODO/wishlist`
 
+### [Playlyfe](https://playlyfe.com/) - Gamification platform
+- [API Documentation](https://dev.playlyfe.com/docs)
+- [Golang SDK for the Playlyfe Rest API](https://github.com/playlyfe/playlyfe-go-sdk)
+
 ### [Plot.ly](https://plot.ly/) - Easily analyze data together
 - [API Documentation](https://plot.ly/api/)
 - [Golang wrapper for Plot.ly](https://placeholder.com/) `TODO/wishlist`
@@ -535,6 +622,10 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 ### [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/) - database of medical publications
 - [API Documentation](https://www.ncbi.nlm.nih.gov/pmc/tools/developers/)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+
+### [Pushover](https://pushover.net/) - Push notifications
+- [API Documentation](https://pushover.net/api)
+- [Golang wrapper for the Pushover API](https://github.com/gregdel/pushover)
 
 ### [Rackspace](http://www.rackspace.com/) - Open cloud company
 - [API Documentation](https://developer.rackspace.com/sdks/golang/)
@@ -564,13 +655,17 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [API Documentation](https://sendgrid.com/docs/for-developers/sending-email/api-getting-started/)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
 
+### [Shopify](https://www.shopify.com/) - e-commerce
+- [API Documentation](https://help.shopify.com/en/api/getting-started)
+- [Golang Library to make CRUD request to the Shopify API](https://github.com/rapito/go-shopify)
+
 ### [Skyscanner](http://www.skyscanner.net/) - Travel metasearch
 - [API Documentation](http://business.skyscanner.net/portal/en-GB/Documentation/ApiOverview)
 - [Golang wrapper for Skyscanner](https://placeholder.com/) `TODO/wishlist`
 
 ### [Slack](https://slack.com/) - Team Communication Platform
 - [API Documentation](https://api.slack.com/)
-- [Golang wrapper for Slack](https://placeholder.com/) `TODO/wishlist`
+- [Golang client for the Slack API](https://github.com/nlopes/slack)
 
 ### [Slideshare](https://www.slideshare.net/) - Slide hosting service
 - [API Documentation](http://www.slideshare.net/developers/documentation)
@@ -580,9 +675,17 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [API Documentation](http://app.smartfile.com/api/)
 - [Golang wrapper for SmartFile](https://placeholder.com/) `TODO/wishlist`
 
+### [Smite](https://www.smitegame.com) - free-to-play, third-person multiplayer online battle arena video game
+- [API Documentation](https://docs.google.com/document/d/1OFS-3ocSx-1Rvg4afAnEHlT3917MAK_6eJTR6rzr-BM/edit)
+- [Golang Library to wrap access to the Smite game API](https://github.com/sergiotapia/smitego)
+
 ### [Socrata Open Data API](http://www.socrata.com/) - Data discovery for government data
 - [API Documentation](http://dev.socrata.com/)
 - [Golang wrapper for Socrata Open Data API](https://placeholder.com/) `TODO/wishlist`
+
+### [Sophos UTM](https://www.sophos.com) - cybersecurity
+- [API Documentation]((https://www.sophos.com/en-us/medialibrary/PDFs/documentation/UTMonAWS/Sophos-UTM-RESTful-API.pdf?la=en)
+- [Golang client library for the Sophos UTM REST API](https://github.com/esurdam/go-sophos)
 
 ### [Soundcloud](http://www.soundcloud.com/) - Share your sounds
 - [API Documentation](http://developers.soundcloud.com/)
@@ -594,11 +697,15 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [Spotify](https://spotify.com/) - Music streaming service
 - [API Documentation](https://developer.spotify.com/documentation/)
-- [Golang wrapper for Spotify](https://placeholder.com/) `TODO/wishlist`
+- [Golang Library to access the Spotify web API](https://github.com/rapito/go-spotify)
 
 ### [Spreedly](https://spreedly.com/) - Cloud based credit card vault
 - [API Documentation](https://core.spreedly.com/manual/quickstart)
 - [Golang wrapper for Spreedly](https://placeholder.com/) `TODO/wishlist`
+
+### [SPTrans Olho Vivo](http://olhovivo.sptrans.com.br/) - Transportation monitoring
+- [API Documentation](https://godoc.org/github.com/sergioaugrod/go-sptrans/sptrans)
+- [Golang client library for the SPTrans Olho Vivo API](https://github.com/sergioaugrod/go-sptrans)
 
 ### [Stack Exchange](http://www.stackexchange.com) - Community-Powered Q&A
 - [API Documentation](https://api.stackexchange.com/docs)
@@ -607,6 +714,14 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 ### [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/) - simple API for text processing tasks
 - [API Documentation](https://stanfordnlp.github.io/CoreNLP/)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+
+### [StatDNS RRDA](https://www.statdns.com/api/) - DNS and Domain Name statistics and tools
+- [API Documentation](https://www.statdns.com/api/)
+- [Golang Library to access the statdns.com API](https://github.com/Omie/rrdaclient)
+
+### [Steam](https://store.steampowered.com/) - video game digital distribution platform
+- [API Documentation](https://steamcommunity.com/dev)
+- [Golang Library to interact with the Steam game servers](https://github.com/sostronk/go-steam)
 
 ### [Stripe](https://stripe.com/) - Payments for developers
 - [API Documentation](https://stripe.com/docs/api?lang=go)
@@ -632,6 +747,10 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [API Documentation](https://core.telegram.org/bots/api)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
 
+### [Telegraph](https://telegra.ph/api) - minimalist publishing tool
+- [API Documentation](https://telegra.ph/api)
+- [Golang API client for Telegraph](https://gitlab.com/toby3d/telegraph)
+
 ### [Temp Mail](https://temp-mail.ru) - Anonymous emails
 - [API Documentation](http://api.temp-mail.ru/)
 - [Golang wrapper for Temp mail](https://placeholder.com/) `TODO/wishlist`
@@ -639,6 +758,10 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 ### [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) - OCR Engine
 - [API Documentation](http://tesseract-ocr.github.io/)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+
+### [TextBelt](https://textbelt.com/) - Messaging
+- [API Documentation](https://textbelt.com/)
+- [Golang client for the TextBelt messaging API](https://github.com/dietsche/textbelt)
 
 ### [The Echo Nest](http://echonest.com) - Music services
 - [API Documentation](http://developer.echonest.com/client_libraries.html)
@@ -654,7 +777,11 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [Trello](https://trello.com/) - Kanban boards
 - [API Documentation](https://trello.com/docs/index.html)
-- [Golang wrapper for Trello](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for the Trello API](https://github.com/adlio/trello)
+
+### [TripAdvisor](https://www.tripadvisor.com/) - travel and restaurant
+- [API Documentation](https://placeholder.com/) `TODO`
+- [Golang wrapper for the TripAdvisor API](https://github.com/mrbenosborne/tripadvisor-golang)
 
 ### [Tuenti](https://www.tuenti.com) - Social networking service
 - [API Documentation](http://corporate.tuenti.com/en/dev)
@@ -672,9 +799,14 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [API Documentation](https://www.twilio.com/docs/api)
 - [Golang wrapper for Twilio](https://placeholder.com/) `TODO/wishlist`
 
+### [Twitch](https://twitch.tv) - Streaming platform
+- [API Documentation](https://dev.twitch.tv/docs)
+- [Golang client for interacting with the Twitch v3 API](https://github.com/knspriggs/go-twitch)
+
 ### [Twitter](http://twitter.com/) - Online microblogging service
 - [API Documentation](https://dev.twitter.com/docs/twitter-libraries)
-- [Golang client library for the Twitter 1.1 API](https://github.com/ChimeraCoder/anaconda)
+- [Golang client library for the Twitter v1.1 API](https://github.com/ChimeraCoder/anaconda)
+- [Golang client library for the Twitter v1.1 API](https://github.com/dghubble/go-twitter)
 
 ### [Uber](https://www.uber.com/) - Taxi, private car or rideshare service
 - [API Documentation](https://developer.uber.com/v1/endpoints/)
@@ -692,9 +824,17 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [API Documentation](http://unirest.io/)
 - [Golang wrapper for Unirest](https://placeholder.com/) `TODO/wishlist`
 
+### [Unsplash](https://unsplash.com) - Free image source
+- [API Documentation](https://unsplash.com/developers)
+- [Golang client library for the Unsplash API](https://github.com/hbagdi/go-unsplash)
+
 ### [UPS](http://www.ups.com) - Package Delivery
 - [API Documentation](https://www.ups.com/upsdeveloperkit)
 - [Golang wrapper for UPS](https://placeholder.com/) `TODO/wishlist`
+
+### [Uptime Robot](https://uptimerobot.com/) - Continuous monitoring
+- [API Documentation](https://uptimerobot.com/api)
+- [Golang wrapper and command-line client for the Uptime Robot v2 API](https://github.com/bitfield/uptimerobot)
 
 ### [UrbanDictionary](http://www.urbandictionary.com) - Web-based dictionary
 - [API Documentation](http://www.urbandictionary.com)
@@ -723,8 +863,12 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [Wikipedia](http://www.wikipedia.org/) - Wikipedia
 - [API Documentation](http://www.mediawiki.org/wiki/API)
-- [Golang wrapper 1](https://placeholder.com/) `TODO/wishlist`
-- [Golang wrapper 2](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper 1](https://github.com/Ishaangandhi/wikigopher) 
+- [Golang wrapper 2](https://github.com/BRUHItsABunny/gopedia)
+
+### [wit.ai](https://wit.ai/) - Natural Language
+- [API Documentation](https://wit.ai/docs/http/20170307)
+- [Golang client for the wit.ai HTTP API](https://github.com/wit-ai/wit-go)
 
 ### [World Bank](http://data.worldbank.org/indicator) - Collection of development indicators
 - [API Documentation](https://placeholder.com/) `TODO/wishlist`
@@ -745,6 +889,10 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 ### [Wunderlist](https://www.wunderlist.com/) - Task Management Application
 - [API Documentation](https://developer.wunderlist.com/documentation)
 - [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+
+### [xkcd](https://xkcd.com) - Webcomic
+- [API Documentation](https://xkcd.com/json.html)
+- [Golang client for the xkcd API](https://github.com/nishanths/go-xkcd)
 
 ### [Yahoo](http://www.yahoo.com) - Web portal, search engine
 - [API Documentation](https://placeholder.com/) `TODO/wishlist`
