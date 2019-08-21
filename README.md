@@ -1,25 +1,24 @@
 # List of Go API Wrappers
 
-Below you will find a list of links to Go wrappers and client libraries for third-party APIs and their documentation. This list was inspired by [the list of Python API wrappers](https://github.com/realpython/list-of-python-api-wrappers). If no known Go-based API wrapper or client library exists for a particular third-party API, `TODO/wishlist` is listed instead.  Users may wish to contribute to the Go ecosystem by implementing a new Go wrapper for an API which does not yet have one, and hopefully this list will assist people in finding such APIs.
+Below you will find a list of links to Go wrappers and client libraries for third-party APIs, along with their documentation. This list was inspired by [the list of Python API wrappers](https://github.com/realpython/list-of-python-api-wrappers) and [the list of R API wrappers](https://github.com/RomanTsegelskyi/r-api-wrappers).
 
-Help expand this list by [searching for API wrappers written in Go](https://github.com/search?utf8=%E2%9C%93&q=api+wrapper&type=Repositories&ref=advsearch&l=Go). If you encounter a third-party API for which someone might want a Go library, but no Go client exists, then consider adding it to the wishlist.
+Help expand this list by [searching for API wrappers written in Go](https://github.com/search?utf8=%E2%9C%93&q=api+wrapper&type=Repositories&ref=advsearch&l=Go). If you encounter a third-party API for which someone might want a Go library, but no Go client exists, then consider adding it to [the wishlist](https://github.com/lennrt/list-of-go-api-wrappers/blob/master/wishlist.md). If you wish to contribute to the Go ecosystem by implementing a new Go wrapper for an API which does not yet have one, consider using the wishlist to find inspiration.
 
-
-### [3taps](https://3taps.com/) - Data Exchange
-- [API Documentation](http://docs.3taps.com/)
-- [Golang wrapper for 3taps](https://placeholder.com/) `TODO/wishlist`
 
 ### [500px](https://web.500px.com/) - Photography Community
 - [API Documentation](https://github.com/500px/legacy-api-documentation)
-- [Golang wrapper for 500px](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for 500px](https://github.com/orijtech/500px)
+- [Golang wrapper for 500px](https://github.com/zachaysan/fhp)
+- [Golang wrapper for 500px](https://github.com/astavonin/five00px)
+- [Golang wrapper for 500px](https://github.com/zaz600/go500px)
 
 ### [Alexa Web](http://www.alexa.com/) - Web traffic data
 - [API Documentation](http://docs.aws.amazon.com/AlexaWebInfoService/latest/)
-- [Golang wrapper for Alexa Web](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Alexa Web](https://github.com/qwer7y/golexaRank)
 
 ### [Amazon](http://www.amazon.com/) - Online Shopping
 - [API Documentation](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/Welcome.html)
-- [Golang wrapper for Amazon.com](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Amazon.com](https://github.com/vially/aws)
 
 ### [Amazon Product API](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/Welcome.html) - Amazon's product catalog
 - [API Documentation](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/CHAP_ApiReference.html)
@@ -39,7 +38,7 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [Golang library to communicate with Storm shells](https://github.com/jsgilmore/gostorm)
 
 ### [Asterisk Manager Interface](https://www.asterisk.org/) - FOSS framework for communication
-- [API Documentation](https://placeholder.com/) `TODO`
+- [API Documentation](https://wiki.asterisk.org/wiki/display/AST/AMI+Event+Documentation)
 - [Golang library for Asterisk Manager Interface](https://github.com/bit4bit/gami)
 
 ### [Atlassian JIRA](https://www.atlassian.com/software/jira) - Agile issue tracking
@@ -52,55 +51,54 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [AWS - Amazon Simple Workflow](http://aws.amazon.com/swf/) - Orchestration service for building scalable distributed applications
 - [API Documentation](http://aws.amazon.com/documentation/swf/)
-- [Golang wrapper for Amazon Simple Workflow](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Amazon Simple Workflow](https://github.com/aws/aws-sdk-go/service/swf)
 
 ### [American Fuzzy Lop / AFL](http://lcamtuf.coredump.cx/afl/) - Fuzzer that employs genetic algorithms in order to efficiently increase code coverage of the test cases
 - [API Documentation](http://lcamtuf.coredump.cx/afl/)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://github.com/bnagy/afl-launch)
 
 ### [Archive.is](http://archive.is/) - time capsule for web pages
 - [API Documentation](http://mementoweb.org/depot/native/archiveis/)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://github.com/jaytaylor/archive.is)
 
 ### [Archive.org](http://archive.org/) - Internet Archive
 - [API Documentation](http://archive.org/help/json.php)
-- [Golang wrapper for archive.org](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for archive.org](https://github.com/jaytaylor/archive.org)
+- [Golang wrapper for archive.org](https://github.com/simonfrey/save_to_web.archive.org)
 
 ### [Arista EOS](https://www.arista.com/en/products/eos) - Network Operating System
 - [API Documentation](http://aristanetworks.github.io/EosSdk/docs/1.6.0/ref/)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://github.com/cxfcxf/goeapi)
 
 ### [ARK](https://ark.io/) - Blockchain Solutions
-- [API Documentation](https://placeholder.com/) `TODO/wishlist`
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [API Documentation](https://godoc.org/github.com/kristjank/ark-go/core)
+- [Golang wrapper](https://github.com/kristjank/ark-go)
 
 ### [ArrayFire](http://arrayfire.com/) - high performance library for parallel computing
 - [API Documentation](http://www.arrayfire.com/docs/index.htm)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
-
-### [Ascribe](https://www.ascribe.io) - Register and License Intellectual Property
-- [API Documentation](http://docs.ascribe.apiary.io)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://github.com/arrayfire/arrayfire-go)
 
 ### [Authorize.net](https://www.authorize.net/) - Payment gateway
 - [API Documentation](https://developer.authorize.net/api/)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://github.com/hunterlong/AuthorizeCIM)
+- [Golang wrapper](https://github.com/tcolar/authorize)
+- [Golang wrapper](https://github.com/eliothedeman/authorize)
 
 ### [Azure](https://azure.microsoft.com/) - Cloud computing platform
 - [API Documentation](https://azure.microsoft.com/en-us/develop/go/)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://github.com/Azure/azure-sdk-for-go)
 
 ### [Backblaze](https://www.backblaze.com/) - cloud backup and storage provider
 - [API Documentation](https://www.backblaze.com/b2/docs/)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://github.com/kothar/go-backblaze)
 
 ### [Balanced](http://www.balancedpayments.com) - Payments for Marketplaces
 - [API Documentation](https://docs.balancedpayments.com/current/api)
-- [Golang wrapper for Balanced](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Balanced](https://github.com/bnoguchi/balanced-go)
 
 ### [BigML](https://bigml.com/) - Machine Learning Made Easy
 - [API Documentation](https://bigml.com/developers)
-- [Golang wrapper for BigML](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for BigML](https://github.com/teltechsystems/gobigml)
 
 ### [Binance](https://www.binance.com) - Cryptocurrency Exchange
 - [API Documentation](https://github.com/binance-exchange/binance-official-api-docs)
@@ -110,95 +108,95 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [Bing](http://www.bing.com) - Microsoft search engine
 - [API Documentation](http://www.bing.com/dev/en-us/dev-center)
-- [Golang wrapper for Bing search](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Bing search](https://github.com/AnikHasibul/bing)
 
 ### [Bitcoin](http://www.bitcoin.com/) - Open source P2P money
 - [API Documentation](https://en.bitcoin.it/wiki/API_reference_(JSON-RPC)#Go)
-- [Golang wrapper for Bitcoin](https://placeholder.com/) `TODO/wishlist`
+- [full node bitcoin implementation in Go](https://github.com/btcsuite/btcd)
 
 ### [Bitly](http://www.bitly.com/) - URL shortener
 - [API Documentation](http://dev.bitly.com/get_started.html)
-- [Golang wrapper for bit.ly](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for bit.ly](https://github.com/zpnk/go-bitly)
 
 ### [Bitstamp](https://www.bitstamp.net/) - Buy and sell bitcoins
 - [API Documentation](https://www.bitstamp.net/api/)
-- [Golang wrapper for Bitstamp](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Bitstamp](https://github.com/ajph/bitstamp-go)
 
 ### [Blogger](http://blogger.com/) - Blog-publishing service
 - [API Documentation](https://developers.google.com/blogger/)
-- [Golang wrapper for Blogger](https://placeholder.com/) `TODO/wishlist`
+- [Golang tools for Blogger](https://github.com/wesdean/blogger-tools)
 
 ### [Box](https://www.box.com/) - Online file sharing
 - [API Documentation](http://developers.box.com/)
-- [Golang wrapper for Box](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Box](https://github.com/ttacon/box)
 
 ### [Braintree](https://www.braintreepayments.com/) - Accept Payments Online
 - [API Documentation](https://www.braintreepayments.com/developers)
-- [Golang wrapper for Braintree](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Braintree](https://github.com/braintree-go/braintree-go)
 
 ### [BreweryDB](https://www.brewerydb.com/) - Brewing Database
-- [API Documentation](https://placeholder.com/) `TODO`
+- [API Documentation](https://brewerydb.com/developers/docs/endpoint/hop-index)
 - [Golang library for accessing the BreweryDB API](https://github.com/naegelejd/brewerydb)
 
 ### [Cachet](https://cachethq.io/) - open source status page system
-- [API Documentation](https://placeholder.com/) `TODO`
+- [API Documentation](https://docs.cachethq.io/reference)
 - [Golang client library for Cachet](https://github.com/andygrunwald/cachet)
-
-### [Carriots](https://www.carriots.com) - M2M Application Platform
-- [API Documentation](https://www.carriots.com/documentation/api)
-- [Golang wrapper for Carriots](https://placeholder.com/) `TODO/wishlist`
 
 ### [Challonge](https://challonge.com) - Tournament Brackets
 - [API Documentation](https://challonge.com/api)
-- [Golang wrapper for Challonge](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Challonge](https://github.com/aspic/go-challonge)
 
 ### [Chargify](http://chargify.com) - Recurring billing application
 - [API Documentation](http://docs.chargify.com/api-introduction)
-- [Golang wrapper for Chargify](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Chargify](https://github.com/GetWagz/go-chargify)
 
 ### [Chronos Job Scheduler](https://mesos.github.io/chronos/) - Job Scheduler
 - [API Documentation](https://mesos.github.io/chronos/docs/api.html)
 - [Golang library for interacting with the Chronos Job Scheduler](https://github.com/axelspringer/go-chronos)
 
 ### [CircleCI](https://circleci.com/) - Continuous Integration and Delivery Platform
-- [API Documentation](https://placeholder.com/) `TODO`
+- [API Documentation](https://circleci.com/docs/)
 - [Golang client library for interacting with CircleCI's API](https://github.com/jszwedko/go-circleci)
 
 ### [Clarifai](https://www.clarifai.com/) - Enterprise AI Powered Computer Vision Solutions
-- [API Documentation](https://placeholder.com/) `TODO`
+- [API Documentation](https://docs.clarifai.com/)
 - [Golang client library for interfacing with the Clarifai API](https://github.com/samuelcouch/clarifai)
 
 ### [Close.io](http://close.io) - Sales communication platform
 - [API Documentation](http://developer.close.io)
-- [Golang wrapper for Close.io](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Close.io](https://github.com/AnalyticalFlavorSystems/closeio-go)
 
 ### [Codeship](https://codeship.com/) - Continuous Integration, Deployment, and Delivery
-- [API Documentation](https://placeholder.com/) `TODO`
+- [API Documentation]https://apidocs.codeship.com/v2/)
 - [Golang client library for interacting with Codeship's API v2](https://github.com/codeship/codeship-go)
 
 ### [Coinbase](https://www.coinbase.com) - Bitcoin Wallet
 - [API Documentation](https://coinbase.com/api/doc.html)
-- [Golang wrapper for Coinbase](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Coinbase Pro](https://github.com/preichenberger/go-coinbasepro)
+
+### [Coinbase Pro](https://pro.coinbase.com/) - Cryptocurrency Trading Platform
+- [API Documentation](https://docs.pro.coinbase.com/)
+- [Golang wrapper for Coinbase](https://github.com/fabioberger/coinbase-go)
 
 ### [Coinpaprika](https://coinpaprika.com/) - Cryptocurrency Research Platform
-- [API Documentation](https://placeholder.com/) `TODO`
+- [API Documentation](https://api.coinpaprika.com/docs)
 - [Golang client library for interacting with Coinpaprika's API](https://github.com/coinpaprika/coinpaprika-api-go-client)
 
 ### [CoinPayments](https://www.coinpayments.net/) - checkout system for cryptocurrencies
 - [API Documentation](https://www.coinpayments.net/apidoc)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://github.com/yograterol/coinpayments-go)
 
 ### [Craigslist](http://www.craigslist.org/) - Classified advertisements
-- [API Documentation](https://placeholder.com/) `TODO/wishlist`
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [API Documentation]()
+- [Golang craigslist crawler](https://github.com/xackery/craigslist)
 
 ### [Delicious](http://www.delicious.com) - Social bookmarking service
 - [API Documentation](https://delicious.com/help/api)
-- [Golang wrapper for Del.icio.us](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Del.icio.us](https://github.com/tomohiro/go-delicious)
 
 ### [Discogs](http://www.discogs.com) - Marketplace for Music on Vinyl, CD..
 - [API Documentation](http://www.discogs.com/developers/)
-- [Golang wrapper for Discogs](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Discogs](https://github.com/irlndts/go-discogs)
 
 ### [Discord](https://discordapp.com/) - All-in-one voice and text chat for gamers
 - [API Documentation](https://discordapp.com/developers)
@@ -206,11 +204,11 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [Discourse](http://www.discourse.org/) - Civilized discussion
 - [API Documentation](https://meta.discourse.org/t/discourse-api-documentation/22706)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://github.com/FrenchBen/godisco)
 
 ### [Disqus](http://www.disqus.com/) - Blog comment hosting service
 - [API Documentation](http://disqus.com/api/docs/)
-- [Golang wrapper for Disqus](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Disqus](https://github.com/pierods/drisqus)
 
 ### [Docker](https://www.docker.com/) - an open platform for distributed applications for developers and sysadmins
 - [API Documentation](https://docs.docker.com/develop/sdk/)
@@ -218,35 +216,31 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [Dribbble](https://dribbble.com/) - community for showcasing user-made artwork
 - [API Documentation](http://developer.dribbble.com/)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://github.com/bedakb/go-dribbble)
 
 ### [Dropbox](http://www.dropbox.com) - File hosting service
 - [API Documentation](https://www.dropbox.com/developers)
-- [Golang wrapper for Dropbox](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Dropbox](https://github.com/scottferg/Dropbox-Go)
 
 ### [Duktape](http://duktape.org/) - Embeddable JavaScript engine
 - [API Documentation](http://duktape.org/api.html)
-- [Golang wrapper](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper](https://github.com/olebedev/go-duktape)
 
 ### [Ebay](http://www.ebay.com/) - Online auction and shopping
 - [API Documentation](http://developer.ebay.com/common/api/)
-- [Golang wrapper for eBay API](https://placeholder.com/) `TODO/wishlist`
+- [Golang eBay API SDK](https://github.com/mithereal/ebay-sdk-go)
 
 ### [Embedly](http://embed.ly/) - Front-end developer tools
 - [API Documentation](http://embed.ly/docs/embed/api/endpoints/1/oembed)
-- [Golang wrapper for Embedly](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Embedly](https://github.com/poptip/embedly)
 
 ### [Ethereum](https://www.ethereum.org/) -  open-source platform for decentralized applications
-- [API Documentation](https://placeholder.com/) `TODO`
+- [API Documentation](https://github.com/ethereum/wiki/wiki/JSON-RPC)
 - [Golang bindings for Ethereum JSON RPC API](https://github.com/onrik/ethrpc)
 
 ### [Evernote](http://www.evernote.com/) - Notetaking software
 - [API Documentation](http://dev.evernote.com/doc/)
-- [Golang wrapper for Evernote](https://placeholder.com/) `TODO/wishlist`
-
-### [Expedia](https://www.expedia.com/) - A travel website
-- [API Documentation](http://developer.expedia.com/directory)
-- [Golang wrapper for Expedia](https://placeholder.com/) `TODO/wishlist`
+- [Golang SDK for Evernote](https://github.com/dreampuf/evernote-sdk-golang)
 
 ### [Facebook](http://www.facebook.com/) - Social networking service
 - [API Documentation](https://developers.facebook.com/)
@@ -254,35 +248,35 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 
 ### [FedEx](http://www.fedex.com/) - Global courier delivery services
 - [API Documentation](http://www.fedex.com/us/developer/)
-- [Golang wrapper for FedEx](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for FedEx tracking lookup](https://github.com/tcolar/fedex)
 
 ### [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) - Cross-platform messaging
-- [API Documentation](https://placeholder.com/) `TODO`
+- [API Documentation](https://firebase.google.com/docs/cloud-messaging/)
 - [Golang library for Firebase Cloud Messaging](https://github.com/maddevsio/fcm)
 
 ### [Flickr](http://www.flickr.com) - Image and Video hosting
 - [API Documentation](http://www.flickr.com/services/api/)
-- [Golang wrapper for Flickr](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Flickr](https://github.com/mncaudill/go-flickr)
 
-### [Forecast](http://forecast.io/) - Weather forecasting
+### [Forecast/Dark Sky](https://darksky.net) - Weather forecasting
 - [API Documentation](https://developer.forecast.io/docs/v2)
-- [Golang wrapper for Forecast](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Forecast](https://github.com/mlbright/darksky)
 
 ### [Foursquare](https://www.foursquare.com/) - Location based networking
 - [API Documentation](https://developer.foursquare.com/)
-- [Golang wrapper for Foursquare](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Foursquare](https://github.com/peppage/foursquarego)
 
 ### [FullContact](https://www.fullcontact.com/) - Manage your contacts
 - [API Documentation](https://www.fullcontact.com/developer/)
-- [Golang wrapper for FullContact](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for FullContact](https://github.com/abramovic/fullcontact-go)
 
 ### [Genius](http://genius.com/) - Song lyrics and annotations
 - [API Documentation](https://docs.genius.com/)
-- [Golang wrapper for Genius](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Genius](https://github.com/erbesharat/gogenius)
 
 ### [Geocodio](https://geocod.io/) - Ridiculously affordable geocoding
 - [API Documentation](https://geocod.io/docs/)
-- [Golang wrapper for Geocodio](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Geocodio](https://github.com/stevepartridge/geocodio)
 
 ### [Geo-Golang](https://godoc.org/github.com/codingsince1985/geo-golang) - Geocoding for Go
 - [API Documentation](https://godoc.org/github.com/codingsince1985/geo-golang)
@@ -295,12 +289,12 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 - [Golang library for accessing trending repositories and developers on Github](https://github.com/andygrunwald/go-trending)
 
 ### [GitHub and Bitbucket Webhooks](https://github.com/go-playground/webhooks) - Webhook receiver for GitHub and Bitbucket.
-- [API Documentation](https://placeholder.com/) `TODO`
+- [API Documentation](https://developer.github.com/webhooks/)
 - [Golang Webhook receiver for GitHub and Bitbucket](https://github.com/go-playground/webhooks)
 
 ### [GitLab](https://gitlab.com/) - Online and self-hosted Git repository management
 - [API Documentation](https://docs.gitlab.com/ce/api/)
-- [Golang wrapper for Gitlab](https://placeholder.com/) `TODO/wishlist`
+- [Golang wrapper for Gitlab](https://github.com/xanzy/go-gitlab)
 
 ### [Gmail](https://developers.google.com/gmail/) -  Web-based e-mail service
 - [API Documentation](https://developers.google.com/gmail/api/)
@@ -377,6 +371,10 @@ Help expand this list by [searching for API wrappers written in Go](https://gith
 ### [Hadoop YARN](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html) - Apache Hadoop NextGen MapReduce (YARN)
 - [API Documentation](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/WebServicesIntro.html)
 - [Golang wrapper for Hadoop YARN](https://placeholder.com/) `TODO/wishlist`
+
+### [Harvest Forecast](https://www.getharvest.com/forecast) - Harvest forecasting
+- [API Documentation](https://godoc.org/github.com/joefitzgerald/forecast)
+- [Golang wrapper for Forecast](https://github.com/joefitzgerald/forecast)
 
 ### [Heroku](https://www.heroku.com/) - Cloud Application Platform
 - [API Documentation](https://devcenter.heroku.com/articles/platform-api-reference)
